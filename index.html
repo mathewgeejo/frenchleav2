@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Education System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="site-logo">
+            <h1>L'Éducation Française</h1>
+        </div>
+        <div class="user-actions">
+            <h1>The French Education System</h1>
+        </div>
+    </div>
+    
+    <ul class="main-nav">
+        <div class="nav-container">
+            <div class="dropdown">
+                <button class="dropbtn">About <i class="fas fa-chevron-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#history"><i class="fas fa-history"></i> History</a>
+                    <a href="#current"><i class="fas fa-school"></i> Current System</a>
+                    <a href="#facts"><i class="fas fa-lightbulb"></i> Special Facts</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropbtn">Comparisons <i class="fas fa-chevron-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#comparison"><i class="fas fa-globe-europe"></i> International Comparisons</a>
+                    <a href="#institutions"><i class="fas fa-university"></i> Famous Institutions</a>
+                </div>
+            </div>
+            
+            <a href="#exams"><i class="fas fa-file-alt"></i> Exams</a>
+            
+            <div class="dropdown">
+                <button class="dropbtn">Support <i class="fas fa-chevron-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#policies"><i class="fas fa-gavel"></i> Policies</a>
+                    <a href="#scholarships"><i class="fas fa-graduation-cap"></i> Scholarships</a>
+                    <a href="#vocational"><i class="fas fa-tools"></i> Vocational Training</a>
+                </div>
+            </div>
+            
+            <a href="#student-life"><i class="fas fa-coffee"></i> Student Life</a>
+            <a href="#future"><i class="fas fa-rocket"></i> Future</a>
+        </div>
+    </ul>
+
+    <div class="banner">
+        <div class="banner-content">
+            <h2>Discover the Excellence of French Education</h2>
+            <p>From preschool to prestigious grandes écoles</p>
+            <button class="btn btn-explore">EXPLORE NOW</button>
+        </div>
+    </div>
+
+    <section id="test-knowledge" class="content-section">
+    <div class="section-container">
+        <h2>Test Your French Education Knowledge</h2>
+        <p>Challenge yourself with our comprehensive quiz about the French Education System</p>
+        <div class="quiz-preview">
+            <div class="quiz-features">
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> 10 Challenging Questions</li>
+                    <li><i class="fas fa-clock"></i> 10 Minutes</li>
+                    <li><i class="fas fa-trophy"></i> Instant Results</li>
+                </ul>
+            </div>
+            <a href="quiz.html" class="btn btn-play">Take the Quiz</a>
+        </div>
+    </div>
+</section>
+
+    <div class="announcement-bar">
+        <p>DISCOVER THE SPECIAL EDUCATIONAL REFORMS COMING IN 2025 <a href="#">READ MORE</a></p>
+    </div>
+
+    <main>
+        <section id="history" class="content-section">
+            <div class="section-container">
+                <h2>History of Education in France</h2>
+                <div class="section-grid">
+                    <div class="text-content">
+                        <p>The French education system has evolved over centuries, shaped by philosophical, political, and cultural movements. From the medieval monastic schools to the revolutionary reforms of the 18th century, French education has a rich heritage.</p>
+                        <p>The Jules Ferry laws of the early 1880s established free, secular, and mandatory education, forming the foundation of the modern French educational approach.</p>
+                        <button class="btn btn-learn-more">LEARN MORE</button>
+                    </div>
+                    <div class="image-content">
+                        <img src="/api/placeholder/400/300" alt="Historical French classroom">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="current" class="content-section alt-bg">
+            <div class="section-container">
+                <h2>Current Education System</h2>
+                <div class="section-grid reverse">
+                    <div class="image-content">
+                        <img src="/api/placeholder/400/300" alt="Modern French classroom">
+                    </div>
+                    <div class="text-content">
+                        <p>Today's French education system is organized into three stages:</p>
+                        <ul>
+                            <li><strong>Primary education (école primaire)</strong>: Ages 6-11</li>
+                            <li><strong>Secondary education</strong>: Collège (Ages 11-15) and Lycée (Ages 15-18)</li>
+                            <li><strong>Higher education</strong>: Universities, Grandes Écoles, and specialized institutions</li>
+                        </ul>
+                        <p>The centralized national curriculum ensures consistent education standards throughout the country.</p>
+                        <button class="btn btn-learn-more">EXPLORE LEVELS</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="facts" class="content-section">
+            <div class="section-container">
+                <h2>Special Facts About French Education</h2>
+                <div class="cards-container">
+                    <div class="fact-card">
+                        <div class="card-icon"><i class="fas fa-book"></i></div>
+                        <h3>Philosophy Emphasis</h3>
+                        <p>France is one of the few countries where philosophy is a mandatory subject for all high school students.</p>
+                    </div>
+                    <div class="fact-card">
+                        <div class="card-icon"><i class="fas fa-clock"></i></div>
+                        <h3>School Schedule</h3>
+                        <p>French students typically have Wednesday afternoons off but attend classes on Saturday mornings.</p>
+                    </div>
+                    <div class="fact-card">
+                        <div class="card-icon"><i class="fas fa-euro-sign"></i></div>
+                        <h3>Affordable Education</h3>
+                        <p>Public universities in France charge minimal tuition fees, even for international students.</p>
+                    </div>
+                    <div class="fact-card">
+                        <div class="card-icon"><i class="fas fa-utensils"></i></div>
+                        <h3>School Lunches</h3>
+                        <p>French school cafeterias serve multi-course meals that emphasize nutrition and culinary education.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional sections would continue here -->
+        
+        <section id="comparison" class="content-section alt-bg">
+            <div class="section-container">
+                <h2>Comparison with Other Education Systems</h2>
+                <div class="comparison-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>France</th>
+                                <th>United States</th>
+                                <th>United Kingdom</th>
+                                <th>Germany</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>School Start Age</td>
+                                <td>6 years</td>
+                                <td>5-6 years</td>
+                                <td>5 years</td>
+                                <td>6 years</td>
+                            </tr>
+                            <tr>
+                                <td>School Day Length</td>
+                                <td>8:30am - 4:30pm</td>
+                                <td>8:00am - 3:00pm</td>
+                                <td>9:00am - 3:30pm</td>
+                                <td>8:00am - 1:30pm</td>
+                            </tr>
+                            <tr>
+                                <td>Higher Education Cost</td>
+                                <td>€170-€380/year</td>
+                                <td>$10,000-$35,000/year</td>
+                                <td>£9,250/year</td>
+                                <td>Free to €500/semester</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="institutions" class="content-section">
+            <div class="section-container">
+                <h2>Prestigious French Institutions</h2>
+                <p class="section-intro">France hosts some of the world's most renowned educational institutions, each with a rich history of academic excellence and innovation.</p>
+                
+                <div class="institutions-grid">
+                    <!-- Sorbonne University -->
+                    <div class="institution-card">
+                        <div class="institution-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Sorbonne_paris.jpg" alt="Sorbonne University">
+                        </div>
+                        <div class="institution-content">
+                            <h3>Sorbonne University</h3>
+                            <div class="institution-stats">
+                                <div class="stat">
+                                    <span class="stat-number">1257</span>
+                                    <span class="stat-label">Founded</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">43,000</span>
+                                    <span class="stat-label">Students</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">#83</span>
+                                    <span class="stat-label">World Rank</span>
+                                </div>
+                            </div>
+                            <p>One of the oldest and most prestigious universities in the world, the Sorbonne has educated countless influential figures throughout history.</p>
+                            <ul class="institution-features">
+                                <li><i class="fas fa-award"></i> 26 Nobel Prize Winners</li>
+                                <li><i class="fas fa-globe"></i> 20% International Students</li>
+                                <li><i class="fas fa-book"></i> Extensive Research Programs</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- École Polytechnique -->
+                    <div class="institution-card">
+                        <div class="institution-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Ecole_Polytechnique_-_Cour_d%27honneur.jpg" alt="École Polytechnique">
+                        </div>
+                        <div class="institution-content">
+                            <h3>École Polytechnique</h3>
+                            <div class="institution-stats">
+                                <div class="stat">
+                                    <span class="stat-number">1794</span>
+                                    <span class="stat-label">Founded</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">3,000</span>
+                                    <span class="stat-label">Students</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">#49</span>
+                                    <span class="stat-label">Engineering Rank</span>
+                                </div>
+                            </div>
+                            <p>France's leading engineering school, known for its rigorous selection process and excellence in scientific research.</p>
+                            <ul class="institution-features">
+                                <li><i class="fas fa-microscope"></i> Top Research Facilities</li>
+                                <li><i class="fas fa-users"></i> Elite Alumni Network</li>
+                                <li><i class="fas fa-industry"></i> Strong Industry Connections</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Sciences Po -->
+                    <div class="institution-card">
+                        <div class="institution-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Sciences_Po_Paris.jpg" alt="Sciences Po">
+                        </div>
+                        <div class="institution-content">
+                            <h3>Sciences Po Paris</h3>
+                            <div class="institution-stats">
+                                <div class="stat">
+                                    <span class="stat-number">1872</span>
+                                    <span class="stat-label">Founded</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">14,000</span>
+                                    <span class="stat-label">Students</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">#2</span>
+                                    <span class="stat-label">Politics Studies</span>
+                                </div>
+                            </div>
+                            <p>A world-leading institution in political science, international relations, and social sciences.</p>
+                            <ul class="institution-features">
+                                <li><i class="fas fa-landmark"></i> 7 French Presidents Alumni</li>
+                                <li><i class="fas fa-globe-europe"></i> 47% International Students</li>
+                                <li><i class="fas fa-handshake"></i> 470+ Partner Universities</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- HEC Paris -->
+                    <div class="institution-card">
+                        <div class="institution-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/HEC_Paris_entrance.jpg/1280px-HEC_Paris_entrance.jpg" alt="HEC Paris">
+                        </div>
+                        <div class="institution-content">
+                            <h3>HEC Paris</h3>
+                            <div class="institution-stats">
+                                <div class="stat">
+                                    <span class="stat-number">1881</span>
+                                    <span class="stat-label">Founded</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">4,500</span>
+                                    <span class="stat-label">Students</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">#1</span>
+                                    <span class="stat-label">European Business School</span>
+                                </div>
+                            </div>
+                            <p>One of the world's top business schools, known for its excellence in management education and research.</p>
+                            <ul class="institution-features">
+                                <li><i class="fas fa-star"></i> Triple Crown Accreditation</li>
+                                <li><i class="fas fa-globe-americas"></i> 60% International Students</li>
+                                <li><i class="fas fa-briefcase"></i> 98% Employment Rate</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- École Normale Supérieure -->
+                    <div class="institution-card">
+                        <div class="institution-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/ENS_Ulm_sunset_1.jpg" alt="École Normale Supérieure">
+                        </div>
+                        <div class="institution-content">
+                            <h3>École Normale Supérieure</h3>
+                            <div class="institution-stats">
+                                <div class="stat">
+                                    <span class="stat-number">1794</span>
+                                    <span class="stat-label">Founded</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">2,400</span>
+                                    <span class="stat-label">Students</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">13</span>
+                                    <span class="stat-label">Nobel Laureates</span>
+                                </div>
+                            </div>
+                            <p>A highly selective institution renowned for its excellence in both sciences and humanities.</p>
+                            <ul class="institution-features">
+                                <li><i class="fas fa-medal"></i> Top Research Output</li>
+                                <li><i class="fas fa-user-graduate"></i> 70+ Fields Medalists</li>
+                                <li><i class="fas fa-brain"></i> Leading Research Centers</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- CentraleSupélec -->
+                    <div class="institution-card">
+                        <div class="institution-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/CentraleSup%C3%A9lec_-_view_from_garden.jpg/1280px-CentraleSup%C3%A9lec_-_view_from_garden.jpg" alt="CentraleSupélec">
+                        </div>
+                        <div class="institution-content">
+                            <h3>CentraleSupélec</h3>
+                            <div class="institution-stats">
+                                <div class="stat">
+                                    <span class="stat-number">1829</span>
+                                    <span class="stat-label">Founded</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">4,300</span>
+                                    <span class="stat-label">Students</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">#7</span>
+                                    <span class="stat-label">Engineering in Europe</span>
+                                </div>
+                            </div>
+                            <p>A leading institute in technology and engineering, formed by the merger of École Centrale Paris and Supélec.</p>
+                            <ul class="institution-features">
+                                <li><i class="fas fa-robot"></i> AI & Data Science Excellence</li>
+                                <li><i class="fas fa-industry"></i> Strong Industry Partnerships</li>
+                                <li><i class="fas fa-flask"></i> Cutting-edge Research Labs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="institutions-cta">
+                    <h3>Ready to Join These Prestigious Institutions?</h3>
+                    <p>Learn about admission requirements and application processes</p>
+                    <button class="btn btn-learn-more">EXPLORE ADMISSIONS</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="exams" class="content-section">
+            <div class="quiz-section">
+                <div class="quiz-content">
+                    <h2>Test Your Knowledge</h2>
+                    <p>Challenge yourself with our interactive French Education System Quiz</p>
+                    <a href="quiz.html" class="btn btn-play">PLAY NOW</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="student-life" class="content-section alt-bg">
+    <div class="section-container">
+        <h2>Student Life in France</h2>
+        
+        <div class="daily-schedule">
+            <h3><i class="fas fa-clock"></i> A Day in French School Life</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="time">8:00</span>
+                    <div class="content">
+                        <h4>Morning Classes Begin</h4>
+                        <p>Students arrive for their first classes of the day</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="time">12:00</span>
+                    <div class="content">
+                        <h4>Lunch Break</h4>
+                        <p>Two-hour break for a proper French lunch</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="time">14:00</span>
+                    <div class="content">
+                        <h4>Afternoon Classes</h4>
+                        <p>Resume classes with focus on specialized subjects</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="time">17:00</span>
+                    <div class="content">
+                        <h4>After School</h4>
+                        <p>Extra-curricular activities and study groups</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="student-life-grid">
+            <div class="life-card">
+                <i class="fas fa-utensils"></i>
+                <h3>Food & Dining</h3>
+                <p>French schools are famous for their high-quality lunches, serving balanced three-course meals that teach students about nutrition and gastronomy.</p>
+                <ul>
+                    <li>Fresh, locally sourced ingredients</li>
+                    <li>Varied weekly menus</li>
+                    <li>Cultural food education</li>
+                </ul>
+            </div>
+
+            <div class="life-card">
+                <i class="fas fa-users"></i>
+                <h3>Social Activities</h3>
+                <p>Students participate in various social and cultural activities throughout the year.</p>
+                <ul>
+                    <li>School clubs and associations</li>
+                    <li>Cultural exchange programs</li>
+                    <li>Sports competitions</li>
+                </ul>
+            </div>
+
+            <div class="life-card">
+                <i class="fas fa-book"></i>
+                <h3>Academic Support</h3>
+                <p>Comprehensive support system to help students succeed in their studies.</p>
+                <ul>
+                    <li>After-school tutoring</li>
+                    <li>Study groups</li>
+                    <li>Academic counseling</li>
+                </ul>
+            </div>
+
+            <div class="life-card">
+                <i class="fas fa-globe"></i>
+                <h3>Cultural Integration</h3>
+                <p>Programs designed to help international students adapt to French culture and education system.</p>
+                <ul>
+                    <li>Language support</li>
+                    <li>Cultural workshops</li>
+                    <li>Integration events</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="traditions-section">
+            <h3><i class="fas fa-landmark"></i> French School Traditions</h3>
+            <div class="traditions-grid">
+                <div class="tradition-card">
+                    <h4>La Rentrée</h4>
+                    <p>The traditional back-to-school period in September, marked by new supplies and reunions.</p>
+                </div>
+                <div class="tradition-card">
+                    <h4>Carnaval</h4>
+                    <p>Annual school carnival celebrating French culture and traditions.</p>
+                </div>
+                <div class="tradition-card">
+                    <h4>Galette des Rois</h4>
+                    <p>Traditional January celebration sharing the "King's Cake" in class.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="future" class="content-section">
+    <div class="section-container">
+        <h2>Future of Education in France</h2>
+        
+        <div class="intro-text">
+            <p class="highlight-text">France is undergoing a major digital transformation in education, with a €1.5 billion investment in educational technology and infrastructure through 2027.</p>
+        </div>
+
+        <div class="future-grid">
+            <div class="future-text">
+                <h3>Digital Revolution in French Education</h3>
+                <p>The French Ministry of Education has launched "France Numérique 2025," an ambitious plan to digitalize education across all levels. Key initiatives include:</p>
+                <ul class="future-list">
+                    <li><strong>One Device Per Student Program:</strong> Ensuring every student has access to a digital device for learning</li>
+                    <li><strong>Digital Skills Curriculum:</strong> Mandatory coding and digital literacy courses from primary school</li>
+                    <li><strong>Teacher Training:</strong> Comprehensive digital upskilling program for 800,000 teachers</li>
+                </ul>
+            </div>
+            <div class="future-image">
+                <img src="images/digital-classroom.jpg" alt="Modern Digital Classroom">
+            </div>
+        </div>
+
+        <!-- AI and Innovation Section -->
+        <div class="innovation-section">
+            <h3>Artificial Intelligence in Education</h3>
+            <div class="ai-applications">
+                <div class="ai-card">
+                    <i class="fas fa-brain"></i>
+                    <h4>Personalized Learning</h4>
+                    <p>AI-powered platforms analyze student performance to create customized learning paths and adapt content difficulty in real-time.</p>
+                </div>
+                <div class="ai-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Predictive Analytics</h4>
+                    <p>Machine learning algorithms identify students at risk of falling behind, enabling early intervention and support.</p>
+                </div>
+                <div class="ai-card">
+                    <i class="fas fa-language"></i>
+                    <h4>Language Learning</h4>
+                    <p>Natural Language Processing tools provide immersive language learning experiences with real-time feedback.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Real Metrics Graph -->
+        <div class="trends-container">
+            <h3>Educational Technology Adoption in French Schools</h3>
+            <div class="graph-container">
+                <canvas id="edTechChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Environmental Integration -->
+        <div class="sustainability-section">
+            <h3>Sustainable Education Initiatives</h3>
+            <div class="eco-grid">
+                <div class="eco-content">
+                    <p>France is integrating environmental awareness into its educational framework through:</p>
+                    <ul>
+                        <li>Eco-friendly campus transformations</li>
+                        <li>Sustainability-focused curriculum</li>
+                        <li>Carbon-neutral education goals by 2030</li>
+                    </ul>
+                </div>
+                <div class="eco-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">50%</span>
+                        <p>Reduction in carbon emissions by 2025</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <p>Renewable energy in schools by 2030</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- International Collaboration -->
+        <div class="international-section">
+            <h3>Global Educational Partnerships</h3>
+            <p>France is expanding its international education initiatives through:</p>
+            <div class="partnership-grid">
+                <div class="partnership-item">
+                    <h4>European University Alliances</h4>
+                    <p>Creation of cross-border campuses with European partners, enabling seamless student mobility and shared resources.</p>
+                </div>
+                <div class="partnership-item">
+                    <h4>Virtual Exchange Programs</h4>
+                    <p>Implementation of digital platforms for international collaboration and cultural exchange.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About This Site</h3>
+                <p>Educational resource on the French education system, its history, structure, and unique features.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#current">Current System</a></li>
+                    <li><a href="#facts">Special Facts</a></li>
+                    <li><a href="#comparison">Comparisons</a></li>
+                    <li><a href="#future">Future</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Study in France Guide</a></li>
+                    <li><a href="#">Scholarship Opportunities</a></li>
+                    <li><a href="#">French Language Resources</a></li>
+                    <li><a href="#">Education News</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p>Email: info@frencheducation.org</p>
+                <p>Phone: +33 1 23 45 67 89</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 French Education System. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
